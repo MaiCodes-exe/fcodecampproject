@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div id="sform">
+        <h1 id="title"> Survey Form</h1>
+        <p id="description">This is a survey form for students </p>
+        <div id="survey">
+            <form id="survey-form">
+                <input id="name" type="text" required placeholder="Your name">
+                <label id="name-label"> Name </label>
+                </input>
+                <input id="email" type="email" required placeholder="Your email">
+                <label id="email-label"> Email </label>
+                </input>
+                <input id="number" type="number" min="18" max="60" required placeholder="Age">
+                <label id="number-label"> Age </label>
+                </input>
+            </form>
+            <p id="pp">What is your favorite feature of freeCodeCamp?</p>
+            <select id="dropdown" name="dropdown" class="form-control" required>
+                <option disabled selected value> Choose one</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+            </select>
+            <p id="pp">Would you recommend freeCodeCamp to a friend?</p>
+            <label id="pp">
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" 
+                    checked />Definitely</label>
+            <label>
+                <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Maybe</label>
+            <label>
+                <input name="user-recommend" value="not-sure" type="radio" class="input-radio" /> Not sure</label>
+            <input type="checkbox" value="attribute">
+            New User
+            </input>
+            <input type="checkbox" value="attribute">
+            Recurrent User
+            </input>
+            <p id="feed"> Would you like to give us feedback? </p>
+            <textarea id="feedback"> Add your comment here </textarea>
+            <div>
+                <button id="submit" type="submit">
+                    Submit!
+                </button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+#title {
+    font-size: 36px
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+
+}
+#sform{
+    width: 550px;
+    background-color: #815B5B;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#description {
+    font-size: 20px;
+    text-align: center;
+}
+
+#feed{
+    text-align: center;
+}
+#feedback{
+    size: 400px;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+#survey-form {
+    font-size: 16px;
+    margin-left: 20px ;
+}
+
+#pp, #dropdown{
+margin-left: 20px;
+}
+
+#name-label {
+    font-size: 14px;
+}
+
+#email-label {
+    font-size: 14px;
+}
+
+#age-label {
+    font-size: 14px;
+}
+
+#number {
+    font-size: 14px;
+}
+#submit {
+    margin-left: 45%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
